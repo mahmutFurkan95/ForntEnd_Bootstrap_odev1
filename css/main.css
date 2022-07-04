@@ -1,0 +1,72 @@
+body {
+    background-color: #E9ECEF ;
+}
+nav a h1{ /*   Brand Name */
+    border: 3px solid #0275d8;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+div#navbarSupportedContent ul li a{  /* nav bar links*/
+    color:coral;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+div#navbarSupportedContent ul li a:hover{
+    color:#0275d8;
+}
+nav div ul li{
+    border-right: 2px solid #0275d8;
+}
+nav div ul li:last-child{
+    border:0;
+}
+.form-control{
+   border: 1.5px solid #0275d8;
+}
+.form-control::placeholder{
+    color: #0275d8;
+}
+.col-sm-4{
+    border:2px solid gray;
+}
+footer {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color:#292b2c;
+    color:coral;
+    width: 100%;
+    margin-top: 80px;
+}
+
+footer p {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.col-sm-4 {
+    padding:0;
+}
+.card-img-top {
+    border-bottom:2px solid #292b2c;
+}
+.ml-5{
+    margin-left:7rem!important;
+}
+a[href="#"]{
+    color:black;
+}
+
+.about-us {
+    text-align: center;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #a1a1a1;
+}
+::-webkit-scrollbar-thumb{
+    background: #0275d8;
+    border-radius: 10px;
+}
+
